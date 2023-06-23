@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Generar prototipo según las técnicas y especificaciones de producto',
+    descripcionCurso:
+      'En este componente formativo se tratan conceptos relacionados con la generación de prototipos, parámetros de fabricación, clasificación de materiales y los procesos asociados a la fabricación mecánica y las técnicas de prototipado.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +37,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Establecer parámetros del prototipo electrónico',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Materiales',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Técnicas de uso',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +56,39 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Procesos de fabricación mecánica',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Técnicas de fabricación',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Características de fabricación',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Prototipos electrónicos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Técnicas de modelado',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Control numérico computarizado en la fabricación de prototipos electrónicos',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -97,32 +133,99 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Requisitos de Ensambles Eléctricos y Electrónicos Soldados',
+      referencia:
+        'IPC (2016). <em>Requisitos de Ensambles Eléctricos y Electrónicos Soldados.</em> https://www.ipc.org/TOC/J-STD-001G-Spanish-toc.pdf',
+      tipo: 'Norma',
+      link: 'https://www.ipc.org/TOC/J-STD-001G-Spanish-toc.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Simulación de Productos',
+      referencia:
+        'EasyEda(s.f.) <em>An Easier and Powerful Online PCB Design Tool.</em> https://easyeda.com/',
+      tipo: 'Página web',
+      link: 'https://easyeda.com/',
+    },
+    {
+      tema: 'Simulación de Circuitos',
+      referencia:
+        'Autodesk, INC. (2021). <em>Tinkercad, Diseño 3D.</em> https://www.tinkercad.com/',
+      tipo: 'Página web',
+      link: 'https://www.tinkercad.com/',
+    },
+    {
+      tema: 'Hojas de Datos técnicos',
+      referencia:
+        'Alldatasheet. (2021). <em>Electronic Components Datasheet Search.</em> www.alldatasheet.com',
+      tipo: 'Página web',
+      link: 'https://alldatasheet.com',
+    },
+    {
+      tema: 'Fabricacion de PCB',
+      referencia:
+        'Strange Parts. (Junio 12, 2018). <em>Dentro de una gran fábrica de Circuitos Impresos - en China.</em> [Archivo de video]. Youtube. https://www.youtube.com/watch?v=ljOoGyCso8s',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ljOoGyCso8s',
+    },
+    {
+      tema: 'Fabricación de placas de circuitos electrónicos',
+      referencia:
+        'Javi Eternal. (Septiembre 6, 2012). <em>Fabricación de placas de circuitos electrónicos.</em> [Archivo de video]. Youtube. https://www.youtube.com/watch?v=ljOoGyCso8s',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=LqaRELYZ1yE',
+    },
+    {
+      tema: 'Quiero Mi CNC',
+      referencia:
+        'El profe García (Julio 13, 2016). <em>Quiero Mi CNC.</em> [Archivo de video]. Youtube. https://www.youtube.com/watch?v=X4BLydtpllo',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=X4BLydtpllo',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Software',
+      significado:
+        'Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Serigrafía',
+      significado:
+        'Procedimiento de estampación mediante estarcido a través de un tejido, originariamente seda.',
+    },
+    {
+      termino: 'Indeleble',
+      significado: 'Que no se puede borrar o quitar.',
+    },
+    {
+      termino: 'Biometría',
+      significado:
+        'Estudio mensurativo o estadístico de los fenómenos o procesos biológicos.',
+    },
+    {
+      termino: 'Fotograbado',
+      significado:
+        'Procedimiento de grabar un cliché fotográfico sobre planchas de cinc, cobre, etc. ',
+    },
+    {
+      termino: 'Viruta',
+      significado:
+        'Hoja delgada que se saca con el cepillo u otras herramientas al labrar la madera o los metales, y que sale, por lo común, arrollada en espiral.',
+    },
+    {
+      termino: 'Mecanizado',
+      significado: 'Proceso de elaboración mecánica.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'NTE Electronics, INC(2005). Manual de reemplazos. 14th edición, ',
+      link: 'www.nteinc.com',
+    },
+    {
+      referencia: 'RAE. (2020) <em>Real academia de la Lengua Española.</em> ',
+      link: 'https://dle.rae.es/software',
     },
   ],
   creditos: [

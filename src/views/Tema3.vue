@@ -98,18 +98,20 @@
           
           .row.justify-content-center.align-items-center.text-small(numero="2" titulo="Realizar la prueba concepto") 
             .col-md-6.col-12
-              p El siguiente paso es desarrollar los diagramas esquemáticos. Si bien estos pueden hacerse a mano, existen infinidad de #[i software] que permiten hacerlos aplicando normas y en la mayoría de los casos simulando algunas funciones, que ayudan en el proceso de desarrollo. Se presenta un diagrama realizado en Proteus.
+              p.mt-3 El siguiente paso es desarrollar los diagramas esquemáticos. Si bien estos pueden hacerse a mano, existen infinidad de #[i software] que permiten hacerlos aplicando normas y en la mayoría de los casos simulando algunas funciones, que ayudan en el proceso de desarrollo. Se presenta un diagrama realizado en Proteus.
             .col-md-6.col-12
               figure
                 img(src="@/assets/curso/temas/tema3/tema3-09.png", alt="alt")
 
-          p.text-small(numero="3" titulo="Resolver el problema planteado") Este paso se hace antes de armar el  prototipo final, se debe plantear una solución viable. Es aquí donde se dan los intentos fallidos, estos ensayos también,  indican si se va por buen camino en la idea preconcebida.
+          div.text-small(numero="3" titulo="Resolver el problema planteado") 
+            p.mt-3 Este paso se hace antes de armar el  prototipo final, se debe plantear una solución viable. Es aquí donde se dan los intentos fallidos, estos ensayos también,  indican si se va por buen camino en la idea preconcebida.
           
-          p.text-small(numero="4" titulo="Pruebas de funcionalidad") En este paso se logra encontrar la versión más eficiente y comercialmente viable.
+          div.text-small(numero="4" titulo="Pruebas de funcionalidad") 
+            p.mt-3 En este paso se logra encontrar la versión más eficiente y comercialmente viable.
 
           .row.justify-content-center.align-items-center.text-small(numero="5" titulo="Armar el prototipo") 
             .col-md-6.col-12
-              p En este último momento es donde se requiere más tiempo e inversión y no se pueden hacer cambios profundos en el funcionamiento del producto.
+              p.mt-2 En este último momento es donde se requiere más tiempo e inversión y no se pueden hacer cambios profundos en el funcionamiento del producto.
             .col-md-6.col-12
               figure
                 img(src="@/assets/curso/temas/tema3/tema3-08.png", alt="alt")

@@ -184,7 +184,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Software',
+      termino: '<em>Software</em>',
       significado:
         'Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
     },

@@ -271,7 +271,7 @@
       .col-md-8.col-lg-6.col-12
         TarjetaAudio.color-acento-botones.mb-3(
             texto=""
-            :audio="require('@/assets/componentes/audios/audio-1.mp3')"
+            :audio="require('@/assets/componentes/audios/audio-1.wav')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
 
@@ -330,14 +330,6 @@
         figure
           img(src="@/assets/curso/temas/tema1/tema1-15.svg", alt="alt")
 
-    .row.justify-content-center.align-items-center.mt-0.mb-4
-      .col-md-8.col-lg-6.col-12
-        TarjetaAudio.color-acento-botones.mb-3(
-            texto=""
-            :audio="require('@/assets/componentes/audios/audio-1.mp3')"
-            @audio-hover="mostrarIndicadorTarjetaAudio = false"
-          )
-
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="fade-right")
       h2 1.1 Técnicas de uso
@@ -349,7 +341,7 @@
       .tarjeta.tarjeta--azul.p-4(titulo="Simulación")
         .row.justify-content-center.align-items-center
           .col-12.col-md-7
-            p La simulación de los componentes electrónicos se hace desde un #[i software] especializado. Esta simulación incluye las características más importantes de los componentes, tal es el caso de su valor, condiciones de funcionamiento, cálculos matemáticos asociados y dependiendo del #[i software], hasta su forma física. También se pueden incluir algunas características de modelado. Algunos de los #[i software] libre más utilizados son: EasyEDA, Circuit Sims, DcAcLab, EveryCircuit, EveryCircuit, DoCircuits, PartSim, Thinkercard Circuits.
+            p La simulación de los componentes electrónicos se hace desde un #[i software] especializado. Esta simulación incluye las características más importantes de los componentes, tal es el caso de su valor, condiciones de funcionamiento, cálculos matemáticos asociados y dependiendo del #[i software], hasta su forma física. También se pueden incluir algunas características de modelado. Algunos de los #[i software] libre más utilizados son: #[i EasyEDA, Circuit Sims, DcAcLab, EveryCircuit, EveryCircuit, DoCircuits, PartSim, Thinkercard Circuits.]
           .col-12.col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/tema1-16.png', alt='')
@@ -383,7 +375,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='')
         .col-12.mt-3
-          p.mb-0 En la imagen se puede apreciar el desarrollo de un gamepad en el #[i software] libre. Aquí se visualiza el diseño final solo con cargar los archivos GERBER. Cada aplicación tiene diferentes formas de generar los archivos #[i GERBER], aunque el estándar es uno solo y puede ser leído por cualquier máquina CNC para el fresado.
+          p.mb-0 En la imagen se puede apreciar el desarrollo de un  #[i gamepad] en el #[i software] libre. Aquí se visualiza el diseño final solo con cargar los archivos GERBER. Cada aplicación tiene diferentes formas de generar los archivos #[i GERBER], aunque el estándar es uno solo y puede ser leído por cualquier máquina CNC para el fresado.
     
 
 </template>

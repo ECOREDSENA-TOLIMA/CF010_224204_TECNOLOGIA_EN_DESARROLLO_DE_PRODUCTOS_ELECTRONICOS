@@ -221,7 +221,7 @@ export default {
     {
       referencia:
         'NTE Electronics, INC(2005). Manual de reemplazos. 14th edición, ',
-      link: 'www.nteinc.com',
+      link: 'https://www.nteinc.com/',
     },
     {
       referencia: 'RAE. (2020) <em>Real academia de la Lengua Española.</em> ',
@@ -264,7 +264,7 @@ export default {
         },
         {
           nombre: 'Carolina Coca Salazar ',
-          cargo: 'Revisora metodológica y pedagógica ',
+          cargo: 'Revisora Metodológica y Pedagógica ',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
@@ -300,7 +300,7 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {

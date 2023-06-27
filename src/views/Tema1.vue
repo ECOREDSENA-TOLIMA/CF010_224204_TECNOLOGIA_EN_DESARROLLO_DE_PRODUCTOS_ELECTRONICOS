@@ -56,27 +56,27 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | IPC 2221B: Norma genérica sobre diseño de circuito impreso.
+            | IPC 2221B: norma genérica sobre diseño de circuito impreso.
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | IPC 2222A: Estándar de diseño seccional para placas orgánicas rígidas.
+            | IPC 2222A: estándar de diseño seccional para placas orgánicas rígidas.
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | IPC 2223D: Estándar de diseño seccional para placas impresas flexibles/rígidas-flexibles.
+            | IPC 2223D: estándar de diseño seccional para placas impresas flexibles/rígidas-flexibles.
           li 
             .lista-ol--cuadro__vineta
               span 4
-            |	IPC 2224: Estándar para PCB de PC.
+            |	IPC 2224: estándar para PCB de PC.
           li 
             .lista-ol--cuadro__vineta
               span 5
-            |	IPC 2225: Estándar de diseño seccional para módulos orgánicos multi chip (MCM-L) y MCM-L.
+            |	IPC 2225: estándar de diseño seccional para módulos orgánicos multi chip (MCM-L) y MCM-L.
           li 
             .lista-ol--cuadro__vineta
               span 6
-            |	IPC 2226: Estándar de diseño seccional para placas de interconexión de alta densidad (HDI).
+            |	IPC 2226: estándar de diseño seccional para placas de interconexión de alta densidad (HDI).
 
       .col-12.col.md-10.mt-5(data-aos="fade-left")
         p Los parámetros más importantes para tener en cuenta en el proceso de prototipado son los siguientes:

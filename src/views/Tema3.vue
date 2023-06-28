@@ -148,7 +148,7 @@
     .row.justify-content-center.py-4.align-items-center
       .col-md-10.col-12(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 Es importante no desmotivarse por malos resultados en el funcionamiento del prototipo, ese es su sentido, encontrar lo que no es adecuado y quedarse con lo que es funcional, edificar en en esas ideas que pasen la prueba y seguir lo que es evidente.
+          p.mb-0 Es importante no desmotivarse por malos resultados en el funcionamiento del prototipo, ese es su sentido, encontrar lo que no es adecuado y quedarse con lo que es funcional, edificar en esas ideas que pasen la prueba y seguir lo que es evidente.
 
 
 </template>

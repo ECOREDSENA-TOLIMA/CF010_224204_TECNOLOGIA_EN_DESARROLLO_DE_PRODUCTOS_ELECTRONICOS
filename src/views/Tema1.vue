@@ -331,8 +331,8 @@
           img(src="@/assets/curso/temas/tema1/tema1-15.svg", alt="alt")
 
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="fade-right")
-      h2 1.1 Técnicas de uso
+    #t_1_2.titulo-segundo.color-acento-contenido.mt-4(data-aos="fade-right")
+      h2 1.2 Técnicas de uso
     .row.justify-content-center.align-items-center.mb-4
       .col-12
         p(data-aos="fade-right") En el prototipado del producto electrónico pueden usarse los materiales y elementos de diferentes formas, dependiendo del enfoque del producto. Las tres formas más comúnmente usadas son las siguientes.

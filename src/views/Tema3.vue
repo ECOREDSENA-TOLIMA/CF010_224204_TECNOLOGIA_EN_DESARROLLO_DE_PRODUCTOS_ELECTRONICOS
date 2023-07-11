@@ -91,7 +91,7 @@
         LineaTiempoD.color-acento-contenido
           .row.justify-content-center.align-items-center.text-small(numero="1" titulo="Desarrollo del boceto") 
             .col-md-6.col-12
-              p En productos electrónicos, lo primero que se desarrolla es el diagrama en bloques de la idea general del proyecto para luego ir desarrollando cada módulo y hacer los respectivos ajustes. A continuación se presenta un diagrama de bloques típicos.
+              p En productos electrónicos, lo primero que se desarrolla es el diagrama en bloques de la idea general del proyecto para luego ir desarrollando cada módulo y hacer los respectivos ajustes. A continuación, se presenta un diagrama de bloques típicos.
             .col-md-6.col-12
               figure
                 img(src="@/assets/curso/temas/tema3/tema3-10.png", alt="alt")
@@ -142,7 +142,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/tema3-06.png", alt="alt")
       .col-12.col-md-6.col-lg-5(data-aos="fade-down")
-        P Muchas de estas máquinas vienen con el kit completo: Fabricación de PCB, colocación de pasta para soldar, ubicación de componentes, hornos de reflujo, inserción de contacto para láminas multicapas; estos kit están pensados para empresas productoras.
+        P Muchas de estas máquinas vienen con el kit completo: Fabricación de PCB, colocación de pasta para soldar, ubicación de componentes, hornos de reflujo, inserción de contacto para láminas multicapas; estos kits están pensados para empresas productoras.
         P Un prototipo electrónico puede partir desde algo muy simple y terminar en algo complejo. La misma característica de evolución del prototipo hace que sea difícil predecir con absoluta precisión todos los parámetros asociados a él. Lo primordial aquí es saber dimensionar el alcance de este y avanzar a medida que las mismas condiciones lo permitan.
         
     .row.justify-content-center.py-4.align-items-center

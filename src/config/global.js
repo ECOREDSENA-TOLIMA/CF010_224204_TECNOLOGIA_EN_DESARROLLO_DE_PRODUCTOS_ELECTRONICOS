@@ -147,7 +147,7 @@ export default {
     {
       tema: 'Simulación de Productos',
       referencia:
-        'EasyEda(s.f.) <em>An Easier and Powerful Online PCB Design Tool.</em> https://easyeda.com/',
+        'EasyEda(s.f.) <em>An Easier and Powerful Online PCB Design Tool.</em>',
       tipo: 'Página web',
       link: 'https://easyeda.com/',
     },

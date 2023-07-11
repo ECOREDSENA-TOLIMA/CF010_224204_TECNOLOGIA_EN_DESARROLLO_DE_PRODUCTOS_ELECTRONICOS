@@ -95,7 +95,7 @@
             img(src='@/assets/curso/temas/tema1/tema1-06.svg', alt='')
         .col-md-7.mb-4.mb-md-0
           p La lámina es quizás uno de los componentes más influyentes en el funcionamiento final del prototipo. Es necesario definir bien el tipo de lámina a utilizar, la lámina más común es la de bakelita de una sola capa, pero también se pueden encontrar de fibra de vidrio.
-          p En la actualidad, se utilizan mucho, las láminas multicapas, que consisten en un sándwich de placas con cobre conductor en medio. Los componentes suelen ir soldados en la parte superior e inferior, y en las capas intermedias sólo hay pistas conductoras de cobre. En las reglas de diseño, se establecen cuáles serán estas pistas; normalmente son los planos de tierra (GND) y el el positivo de la fuente de poder (Vcc).
+          p En la actualidad, se utilizan mucho, las láminas multicapas, que consisten en un sándwich de placas con cobre conductor en medio. Los componentes suelen ir soldados en la parte superior e inferior, y en las capas intermedias solo hay pistas conductoras de cobre. En las reglas de diseño, se establecen cuáles serán estas pistas; normalmente son los planos de tierra (GND) y el positivo de la fuente de poder (Vcc).
       
 
       .row.justify-content-center.align-items-center(titulo="Archivos de fabricación")
@@ -115,7 +115,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-12
         p(data-aos="fade-right") Los materiales son un punto importante en el desarrollo del prototipo. De ahí que su elección sea los que más se parezcan a los que se usarán en el producto final; esto incluye hasta el tipo de soldadura y su proceso, pues la forma en la que se realice puede cambiar algunas características del producto. Elaborar una lista con las descripciones de estos componentes y referencias exactas para evitar confusiones es la recomendación principal.
-        p(data-aos="fade-right") Dada la gran variedad de elementos electrónicos, los riesgos de intercambio de componentes son altos; referencias similares pero características diferentes, son de los errores más comunes. 
+        p(data-aos="fade-right") Dada la gran variedad de elementos electrónicos, los riesgos de intercambio de componentes son altos; referencias similares, pero características diferentes, son de los errores más comunes. 
         p(data-aos="fade-right") En la siguiente tabla se presenta una lista de componentes típica, describiendo cada componente.
 
     .row.justify-content-center.align-items-center.mb-0
@@ -349,7 +349,7 @@
       .tarjeta.tarjeta--azul.p-4(titulo="Montaje en Protoboard")
         .row.justify-content-center.align-items-center
           .col-12.col-md-7
-            p Esta es quizás la técnica más utilizada ya que nos permite tener una idea clara del funcionamiento físico del producto. La principal ventaja de la protoboard es que se pueden intercambiar los componentes una y otra vez, sin que estos sufran mayores daños. La protoboard no es recomendada, cuando se trabaja con altas frecuencias, las placas contenidas en ella, se comportan como capacitores, que pueden alterar el funcionamiento del circuito en prueba.
+            p Esta es quizás la técnica más utilizada, ya que nos permite tener una idea clara del funcionamiento físico del producto. La principal ventaja de la protoboard es que se pueden intercambiar los componentes una y otra vez, sin que estos sufran mayores daños. La protoboard no es recomendada, cuando se trabaja con altas frecuencias, las placas contenidas en ella, se comportan como capacitores, que pueden alterar el funcionamiento del circuito en prueba.
           .col-12.col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='')
@@ -373,7 +373,7 @@
       .row.align-items-center
         .col-12
           figure
-            img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='')
+            img(src='@/assets/curso/temas/tema1/tema1-07.svg', alt='')
         .col-12.mt-3
           p.mb-0 En la imagen se puede apreciar el desarrollo de un  #[i gamepad] en el #[i software] libre. Aquí se visualiza el diseño final solo con cargar los archivos GERBER. Cada aplicación tiene diferentes formas de generar los archivos #[i GERBER], aunque el estándar es uno solo y puede ser leído por cualquier máquina CNC para el fresado.
     

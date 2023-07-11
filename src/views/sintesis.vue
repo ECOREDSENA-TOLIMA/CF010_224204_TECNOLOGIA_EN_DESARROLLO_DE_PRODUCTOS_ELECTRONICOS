@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p A continuación, se describe el tema principal del Componente Formativo CF10 Generar prototipo según las técnicas y especificaciones del producto gracias a los conceptos relacionados con la generación de prototipos, parámetros de fabricación, clasificación de materiales y los procesos asociados a la fabricación mecánica y las técnicas de prototipado teniendo en cuenta la aplicación de la normativa de manera correcta en cada una de las técnicas descritas.
+    p A continuación, se describe el tema principal del componente formativo generar prototipo según las técnicas y especificaciones del producto gracias a los conceptos relacionados con la generación de prototipos, parámetros de fabricación, clasificación de materiales y los procesos asociados a la fabricación mecánica y las técnicas de prototipado teniendo en cuenta la aplicación de la normativa de manera correcta en cada una de las técnicas descritas.
     p.mb-5 Una breve descripción de los temas vistos, se encuentran en el siguiente esquema:
 
     .row.justify-content-center
